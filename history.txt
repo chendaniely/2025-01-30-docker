@@ -1,0 +1,17 @@
+  474  docker run hello-world
+
+  476  cd git/
+  477  git clone git@github.com:chendaniely/2025-01-30-docker.git
+  478  cd 2025-01-30-docker/
+  479  ls
+  480  pwd
+  481  docker run --rm -it rocker/r-ver:4.3.2
+  482  docker run --rm rocker/rstudio:4.4.2
+  483  docker run --rm -p 8787:8787 rocker/rstudio:4.4.2
+  484  docker run --rm -p 8787:8787 rocker/rstudio:4.4.2
+  485  docker run --rm -e PASSWORD="pizza" -p 8787:8787 rocker/rstudio:4.4.2
+  486  docker run --rm -e PASSWORD="pizza" -p 8787:8787 rocker/rstudio:4.4.2
+  487  docker ps -a
+  488  docker run --rm -e PASSWORD="pizza" -p 8787:8787 rocker/rstudio:4.4.2
+  489  docker run --rm -e PASSWORD="pizza" -p 7777:8787 rocker/tidyverse:4.4.2
+  490  docker run --rm -e PASSWORD="pizza" -p 7777:8787 --platform=linux/amd64 rocker/tidyverse:4.4.2
